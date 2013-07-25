@@ -28,7 +28,7 @@
 		2D4A6AE217A0F8F000CAF0CB /* RSMessageListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AE117A0F8F000CAF0CB /* RSMessageListVC.m */; };
 		2D4A6AE917A1091B00CAF0CB /* RSMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AE817A1091B00CAF0CB /* RSMessageCell.m */; };
 		2D4A6AEF17A10E5100CAF0CB /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AEE17A10E5100CAF0CB /* Message.m */; };
-		2D4A6AF417A1128900CAF0CB /* GCDCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AF217A1128900CAF0CB /* GCDCoreDataStorage.m */; };
+		2D4A6AF917A1164B00CAF0CB /* GCDCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AF717A1164B00CAF0CB /* GCDCoreDataStorage.m */; };
 		D8EC496C93B448739DBD1D5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A688D055DF243CF8EB4F93C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -74,9 +74,9 @@
 		2D4A6AE817A1091B00CAF0CB /* RSMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMessageCell.m; sourceTree = "<group>"; };
 		2D4A6AED17A10E5000CAF0CB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		2D4A6AEE17A10E5100CAF0CB /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		2D4A6AF117A1128900CAF0CB /* GCDCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCoreDataStorage.h; sourceTree = "<group>"; };
-		2D4A6AF217A1128900CAF0CB /* GCDCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCoreDataStorage.m; sourceTree = "<group>"; };
-		2D4A6AF317A1128900CAF0CB /* GCDCoreDataStorageProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCoreDataStorageProtected.h; sourceTree = "<group>"; };
+		2D4A6AF617A1164B00CAF0CB /* GCDCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCoreDataStorage.h; sourceTree = "<group>"; };
+		2D4A6AF717A1164B00CAF0CB /* GCDCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCoreDataStorage.m; sourceTree = "<group>"; };
+		2D4A6AF817A1164B00CAF0CB /* GCDCoreDataStorageProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCoreDataStorageProtected.h; sourceTree = "<group>"; };
 		8793C91849B14221B110E5A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		2D4A6A8A17A0F1A600CAF0CB = {
 			isa = PBXGroup;
 			children = (
-				2D4A6AF017A1128900CAF0CB /* GCDDataStorage */,
+				2D4A6AF517A1164B00CAF0CB /* GCDCoreDataStorage */,
 				2D4A6AD117A0F1B500CAF0CB /* CoreData */,
 				2D4A6A9C17A0F1A600CAF0CB /* ConcurrencyCoreData */,
 				2D4A6AC017A0F1A600CAF0CB /* ConcurrencyCoreDataTests */,
@@ -202,14 +202,15 @@
 			path = ConcurrencyCoreData;
 			sourceTree = "<group>";
 		};
-		2D4A6AF017A1128900CAF0CB /* GCDDataStorage */ = {
+		2D4A6AF517A1164B00CAF0CB /* GCDCoreDataStorage */ = {
 			isa = PBXGroup;
 			children = (
-				2D4A6AF117A1128900CAF0CB /* GCDCoreDataStorage.h */,
-				2D4A6AF217A1128900CAF0CB /* GCDCoreDataStorage.m */,
-				2D4A6AF317A1128900CAF0CB /* GCDCoreDataStorageProtected.h */,
+				2D4A6AF617A1164B00CAF0CB /* GCDCoreDataStorage.h */,
+				2D4A6AF717A1164B00CAF0CB /* GCDCoreDataStorage.m */,
+				2D4A6AF817A1164B00CAF0CB /* GCDCoreDataStorageProtected.h */,
 			);
-			path = GCDDataStorage;
+			name = GCDCoreDataStorage;
+			path = ../GCDCoreDataStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +363,7 @@
 				2D4A6AE217A0F8F000CAF0CB /* RSMessageListVC.m in Sources */,
 				2D4A6AE917A1091B00CAF0CB /* RSMessageCell.m in Sources */,
 				2D4A6AEF17A10E5100CAF0CB /* Message.m in Sources */,
-				2D4A6AF417A1128900CAF0CB /* GCDCoreDataStorage.m in Sources */,
+				2D4A6AF917A1164B00CAF0CB /* GCDCoreDataStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
