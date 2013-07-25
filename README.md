@@ -1,0 +1,1 @@
+Extract core data storage class from [XMPPFramework](https://github.com/robbiehanson/XMPPFramework) .

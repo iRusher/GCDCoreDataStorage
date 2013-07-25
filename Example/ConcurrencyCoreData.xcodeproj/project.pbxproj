@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4A6A9717A0F1A600CAF0CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6A9617A0F1A600CAF0CB /* UIKit.framework */; };
+		2D4A6A9917A0F1A600CAF0CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6A9817A0F1A600CAF0CB /* Foundation.framework */; };
+		2D4A6A9B17A0F1A600CAF0CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6A9A17A0F1A600CAF0CB /* CoreGraphics.framework */; };
+		2D4A6AA117A0F1A600CAF0CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6A9F17A0F1A600CAF0CB /* InfoPlist.strings */; };
+		2D4A6AA317A0F1A600CAF0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AA217A0F1A600CAF0CB /* main.m */; };
+		2D4A6AA717A0F1A600CAF0CB /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AA617A0F1A600CAF0CB /* RSAppDelegate.m */; };
+		2D4A6AA917A0F1A600CAF0CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6AA817A0F1A600CAF0CB /* Default.png */; };
+		2D4A6AAB17A0F1A600CAF0CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6AAA17A0F1A600CAF0CB /* Default@2x.png */; };
+		2D4A6AAD17A0F1A600CAF0CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6AAC17A0F1A600CAF0CB /* Default-568h@2x.png */; };
+		2D4A6AB017A0F1A600CAF0CB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6AAE17A0F1A600CAF0CB /* MainStoryboard.storyboard */; };
+		2D4A6ABB17A0F1A600CAF0CB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6ABA17A0F1A600CAF0CB /* SenTestingKit.framework */; };
+		2D4A6ABC17A0F1A600CAF0CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6A9617A0F1A600CAF0CB /* UIKit.framework */; };
+		2D4A6ABD17A0F1A600CAF0CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6A9817A0F1A600CAF0CB /* Foundation.framework */; };
+		2D4A6AC517A0F1A600CAF0CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A6AC317A0F1A600CAF0CB /* InfoPlist.strings */; };
+		2D4A6AC817A0F1A600CAF0CB /* ConcurrencyCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AC717A0F1A600CAF0CB /* ConcurrencyCoreDataTests.m */; };
+		2D4A6AD417A0F21900CAF0CB /* Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AD217A0F21900CAF0CB /* Chat.xcdatamodeld */; };
+		2D4A6ADB17A0F51B00CAF0CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A6ADA17A0F51B00CAF0CB /* CoreData.framework */; };
+		2D4A6ADE17A0F69C00CAF0CB /* ChatCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6ADD17A0F69C00CAF0CB /* ChatCoreDataStorage.m */; };
+		2D4A6AE217A0F8F000CAF0CB /* RSMessageListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AE117A0F8F000CAF0CB /* RSMessageListVC.m */; };
+		2D4A6AE917A1091B00CAF0CB /* RSMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AE817A1091B00CAF0CB /* RSMessageCell.m */; };
+		2D4A6AEF17A10E5100CAF0CB /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AEE17A10E5100CAF0CB /* Message.m */; };
+		2D4A6AF417A1128900CAF0CB /* GCDCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A6AF217A1128900CAF0CB /* GCDCoreDataStorage.m */; };
+		D8EC496C93B448739DBD1D5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A688D055DF243CF8EB4F93C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D4A6ABE17A0F1A600CAF0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4A6A8B17A0F1A600CAF0CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4A6A9217A0F1A600CAF0CB;
+			remoteInfo = ConcurrencyCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A688D055DF243CF8EB4F93C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4A6A9317A0F1A600CAF0CB /* ConcurrencyCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4A6A9617A0F1A600CAF0CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D4A6A9817A0F1A600CAF0CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D4A6A9A17A0F1A600CAF0CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D4A6A9E17A0F1A600CAF0CB /* ConcurrencyCoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConcurrencyCoreData-Info.plist"; sourceTree = "<group>"; };
+		2D4A6AA017A0F1A600CAF0CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D4A6AA217A0F1A600CAF0CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D4A6AA417A0F1A600CAF0CB /* ConcurrencyCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConcurrencyCoreData-Prefix.pch"; sourceTree = "<group>"; };
+		2D4A6AA517A0F1A600CAF0CB /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		2D4A6AA617A0F1A600CAF0CB /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		2D4A6AA817A0F1A600CAF0CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2D4A6AAA17A0F1A600CAF0CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2D4A6AAC17A0F1A600CAF0CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D4A6AAF17A0F1A600CAF0CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2D4A6AB917A0F1A600CAF0CB /* ConcurrencyCoreDataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyCoreDataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4A6ABA17A0F1A600CAF0CB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D4A6AC217A0F1A600CAF0CB /* ConcurrencyCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConcurrencyCoreDataTests-Info.plist"; sourceTree = "<group>"; };
+		2D4A6AC417A0F1A600CAF0CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D4A6AC617A0F1A600CAF0CB /* ConcurrencyCoreDataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrencyCoreDataTests.h; sourceTree = "<group>"; };
+		2D4A6AC717A0F1A600CAF0CB /* ConcurrencyCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcurrencyCoreDataTests.m; sourceTree = "<group>"; };
+		2D4A6AD317A0F21900CAF0CB /* Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat.xcdatamodel; sourceTree = "<group>"; };
+		2D4A6ADA17A0F51B00CAF0CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2D4A6ADC17A0F69C00CAF0CB /* ChatCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCoreDataStorage.h; sourceTree = "<group>"; };
+		2D4A6ADD17A0F69C00CAF0CB /* ChatCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCoreDataStorage.m; sourceTree = "<group>"; };
+		2D4A6AE017A0F8F000CAF0CB /* RSMessageListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMessageListVC.h; sourceTree = "<group>"; };
+		2D4A6AE117A0F8F000CAF0CB /* RSMessageListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMessageListVC.m; sourceTree = "<group>"; };
+		2D4A6AE717A1091B00CAF0CB /* RSMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMessageCell.h; sourceTree = "<group>"; };
+		2D4A6AE817A1091B00CAF0CB /* RSMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMessageCell.m; sourceTree = "<group>"; };
+		2D4A6AED17A10E5000CAF0CB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		2D4A6AEE17A10E5100CAF0CB /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		2D4A6AF117A1128900CAF0CB /* GCDCoreDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCoreDataStorage.h; sourceTree = "<group>"; };
+		2D4A6AF217A1128900CAF0CB /* GCDCoreDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCoreDataStorage.m; sourceTree = "<group>"; };
+		2D4A6AF317A1128900CAF0CB /* GCDCoreDataStorageProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCoreDataStorageProtected.h; sourceTree = "<group>"; };
+		8793C91849B14221B110E5A9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D4A6A9017A0F1A600CAF0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4A6ADB17A0F51B00CAF0CB /* CoreData.framework in Frameworks */,
+				2D4A6A9717A0F1A600CAF0CB /* UIKit.framework in Frameworks */,
+				2D4A6A9917A0F1A600CAF0CB /* Foundation.framework in Frameworks */,
+				2D4A6A9B17A0F1A600CAF0CB /* CoreGraphics.framework in Frameworks */,
+				D8EC496C93B448739DBD1D5F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A6AB517A0F1A600CAF0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4A6ABB17A0F1A600CAF0CB /* SenTestingKit.framework in Frameworks */,
+				2D4A6ABC17A0F1A600CAF0CB /* UIKit.framework in Frameworks */,
+				2D4A6ABD17A0F1A600CAF0CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D4A6A8A17A0F1A600CAF0CB = {
+			isa = PBXGroup;
+			children = (
+				2D4A6AF017A1128900CAF0CB /* GCDDataStorage */,
+				2D4A6AD117A0F1B500CAF0CB /* CoreData */,
+				2D4A6A9C17A0F1A600CAF0CB /* ConcurrencyCoreData */,
+				2D4A6AC017A0F1A600CAF0CB /* ConcurrencyCoreDataTests */,
+				2D4A6A9517A0F1A600CAF0CB /* Frameworks */,
+				2D4A6A9417A0F1A600CAF0CB /* Products */,
+				8793C91849B14221B110E5A9 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2D4A6A9417A0F1A600CAF0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6A9317A0F1A600CAF0CB /* ConcurrencyCoreData.app */,
+				2D4A6AB917A0F1A600CAF0CB /* ConcurrencyCoreDataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D4A6A9517A0F1A600CAF0CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6ADA17A0F51B00CAF0CB /* CoreData.framework */,
+				2D4A6A9617A0F1A600CAF0CB /* UIKit.framework */,
+				2D4A6A9817A0F1A600CAF0CB /* Foundation.framework */,
+				2D4A6A9A17A0F1A600CAF0CB /* CoreGraphics.framework */,
+				2D4A6ABA17A0F1A600CAF0CB /* SenTestingKit.framework */,
+				1A688D055DF243CF8EB4F93C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4A6A9C17A0F1A600CAF0CB /* ConcurrencyCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6AA517A0F1A600CAF0CB /* RSAppDelegate.h */,
+				2D4A6AA617A0F1A600CAF0CB /* RSAppDelegate.m */,
+				2D4A6AAE17A0F1A600CAF0CB /* MainStoryboard.storyboard */,
+				2D4A6AE017A0F8F000CAF0CB /* RSMessageListVC.h */,
+				2D4A6AE117A0F8F000CAF0CB /* RSMessageListVC.m */,
+				2D4A6AE717A1091B00CAF0CB /* RSMessageCell.h */,
+				2D4A6AE817A1091B00CAF0CB /* RSMessageCell.m */,
+				2D4A6A9D17A0F1A600CAF0CB /* Supporting Files */,
+			);
+			path = ConcurrencyCoreData;
+			sourceTree = "<group>";
+		};
+		2D4A6A9D17A0F1A600CAF0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6A9E17A0F1A600CAF0CB /* ConcurrencyCoreData-Info.plist */,
+				2D4A6A9F17A0F1A600CAF0CB /* InfoPlist.strings */,
+				2D4A6AA217A0F1A600CAF0CB /* main.m */,
+				2D4A6AA417A0F1A600CAF0CB /* ConcurrencyCoreData-Prefix.pch */,
+				2D4A6AA817A0F1A600CAF0CB /* Default.png */,
+				2D4A6AAA17A0F1A600CAF0CB /* Default@2x.png */,
+				2D4A6AAC17A0F1A600CAF0CB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4A6AC017A0F1A600CAF0CB /* ConcurrencyCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6AC617A0F1A600CAF0CB /* ConcurrencyCoreDataTests.h */,
+				2D4A6AC717A0F1A600CAF0CB /* ConcurrencyCoreDataTests.m */,
+				2D4A6AC117A0F1A600CAF0CB /* Supporting Files */,
+			);
+			path = ConcurrencyCoreDataTests;
+			sourceTree = "<group>";
+		};
+		2D4A6AC117A0F1A600CAF0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6AC217A0F1A600CAF0CB /* ConcurrencyCoreDataTests-Info.plist */,
+				2D4A6AC317A0F1A600CAF0CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D4A6AD117A0F1B500CAF0CB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6AD217A0F21900CAF0CB /* Chat.xcdatamodeld */,
+				2D4A6AED17A10E5000CAF0CB /* Message.h */,
+				2D4A6AEE17A10E5100CAF0CB /* Message.m */,
+				2D4A6ADC17A0F69C00CAF0CB /* ChatCoreDataStorage.h */,
+				2D4A6ADD17A0F69C00CAF0CB /* ChatCoreDataStorage.m */,
+			);
+			name = CoreData;
+			path = ConcurrencyCoreData;
+			sourceTree = "<group>";
+		};
+		2D4A6AF017A1128900CAF0CB /* GCDDataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A6AF117A1128900CAF0CB /* GCDCoreDataStorage.h */,
+				2D4A6AF217A1128900CAF0CB /* GCDCoreDataStorage.m */,
+				2D4A6AF317A1128900CAF0CB /* GCDCoreDataStorageProtected.h */,
+			);
+			path = GCDDataStorage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D4A6A9217A0F1A600CAF0CB /* ConcurrencyCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4A6ACB17A0F1A600CAF0CB /* Build configuration list for PBXNativeTarget "ConcurrencyCoreData" */;
+			buildPhases = (
+				50A2BF71D1F445A085971155 /* Check Pods Manifest.lock */,
+				2D4A6A8F17A0F1A600CAF0CB /* Sources */,
+				2D4A6A9017A0F1A600CAF0CB /* Frameworks */,
+				2D4A6A9117A0F1A600CAF0CB /* Resources */,
+				4834E8EECF7246C5B57C4C22 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcurrencyCoreData;
+			productName = ConcurrencyCoreData;
+			productReference = 2D4A6A9317A0F1A600CAF0CB /* ConcurrencyCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4A6AB817A0F1A600CAF0CB /* ConcurrencyCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4A6ACE17A0F1A600CAF0CB /* Build configuration list for PBXNativeTarget "ConcurrencyCoreDataTests" */;
+			buildPhases = (
+				2D4A6AB417A0F1A600CAF0CB /* Sources */,
+				2D4A6AB517A0F1A600CAF0CB /* Frameworks */,
+				2D4A6AB617A0F1A600CAF0CB /* Resources */,
+				2D4A6AB717A0F1A600CAF0CB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4A6ABF17A0F1A600CAF0CB /* PBXTargetDependency */,
+			);
+			name = ConcurrencyCoreDataTests;
+			productName = ConcurrencyCoreDataTests;
+			productReference = 2D4A6AB917A0F1A600CAF0CB /* ConcurrencyCoreDataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D4A6A8B17A0F1A600CAF0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = iRusher;
+			};
+			buildConfigurationList = 2D4A6A8E17A0F1A600CAF0CB /* Build configuration list for PBXProject "ConcurrencyCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D4A6A8A17A0F1A600CAF0CB;
+			productRefGroup = 2D4A6A9417A0F1A600CAF0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D4A6A9217A0F1A600CAF0CB /* ConcurrencyCoreData */,
+				2D4A6AB817A0F1A600CAF0CB /* ConcurrencyCoreDataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D4A6A9117A0F1A600CAF0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4A6AA117A0F1A600CAF0CB /* InfoPlist.strings in Resources */,
+				2D4A6AA917A0F1A600CAF0CB /* Default.png in Resources */,
+				2D4A6AAB17A0F1A600CAF0CB /* Default@2x.png in Resources */,
+				2D4A6AAD17A0F1A600CAF0CB /* Default-568h@2x.png in Resources */,
+				2D4A6AB017A0F1A600CAF0CB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A6AB617A0F1A600CAF0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4A6AC517A0F1A600CAF0CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4A6AB717A0F1A600CAF0CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		4834E8EECF7246C5B57C4C22 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A2BF71D1F445A085971155 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D4A6A8F17A0F1A600CAF0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4A6AA317A0F1A600CAF0CB /* main.m in Sources */,
+				2D4A6AA717A0F1A600CAF0CB /* RSAppDelegate.m in Sources */,
+				2D4A6AD417A0F21900CAF0CB /* Chat.xcdatamodeld in Sources */,
+				2D4A6ADE17A0F69C00CAF0CB /* ChatCoreDataStorage.m in Sources */,
+				2D4A6AE217A0F8F000CAF0CB /* RSMessageListVC.m in Sources */,
+				2D4A6AE917A1091B00CAF0CB /* RSMessageCell.m in Sources */,
+				2D4A6AEF17A10E5100CAF0CB /* Message.m in Sources */,
+				2D4A6AF417A1128900CAF0CB /* GCDCoreDataStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4A6AB417A0F1A600CAF0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4A6AC817A0F1A600CAF0CB /* ConcurrencyCoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4A6ABF17A0F1A600CAF0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4A6A9217A0F1A600CAF0CB /* ConcurrencyCoreData */;
+			targetProxy = 2D4A6ABE17A0F1A600CAF0CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D4A6A9F17A0F1A600CAF0CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4A6AA017A0F1A600CAF0CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D4A6AAE17A0F1A600CAF0CB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4A6AAF17A0F1A600CAF0CB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		2D4A6AC317A0F1A600CAF0CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D4A6AC417A0F1A600CAF0CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4A6AC917A0F1A600CAF0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D4A6ACA17A0F1A600CAF0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D4A6ACC17A0F1A600CAF0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8793C91849B14221B110E5A9 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcurrencyCoreData/ConcurrencyCoreData-Prefix.pch";
+				INFOPLIST_FILE = "ConcurrencyCoreData/ConcurrencyCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D4A6ACD17A0F1A600CAF0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8793C91849B14221B110E5A9 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcurrencyCoreData/ConcurrencyCoreData-Prefix.pch";
+				INFOPLIST_FILE = "ConcurrencyCoreData/ConcurrencyCoreData-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D4A6ACF17A0F1A600CAF0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConcurrencyCoreData.app/ConcurrencyCoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcurrencyCoreData/ConcurrencyCoreData-Prefix.pch";
+				INFOPLIST_FILE = "ConcurrencyCoreDataTests/ConcurrencyCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2D4A6AD017A0F1A600CAF0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConcurrencyCoreData.app/ConcurrencyCoreData";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcurrencyCoreData/ConcurrencyCoreData-Prefix.pch";
+				INFOPLIST_FILE = "ConcurrencyCoreDataTests/ConcurrencyCoreDataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4A6A8E17A0F1A600CAF0CB /* Build configuration list for PBXProject "ConcurrencyCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A6AC917A0F1A600CAF0CB /* Debug */,
+				2D4A6ACA17A0F1A600CAF0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4A6ACB17A0F1A600CAF0CB /* Build configuration list for PBXNativeTarget "ConcurrencyCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A6ACC17A0F1A600CAF0CB /* Debug */,
+				2D4A6ACD17A0F1A600CAF0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4A6ACE17A0F1A600CAF0CB /* Build configuration list for PBXNativeTarget "ConcurrencyCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4A6ACF17A0F1A600CAF0CB /* Debug */,
+				2D4A6AD017A0F1A600CAF0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D4A6AD217A0F21900CAF0CB /* Chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D4A6AD317A0F21900CAF0CB /* Chat.xcdatamodel */,
+			);
+			currentVersion = 2D4A6AD317A0F21900CAF0CB /* Chat.xcdatamodel */;
+			path = Chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D4A6A8B17A0F1A600CAF0CB /* Project object */;
+}
